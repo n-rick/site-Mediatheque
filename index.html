@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>test FlexBox Mediathèque</title>
+</head>
+<body>
+    <nav>
+        <div class="page">
+            <div class="menu">
+                <a href="#">Accueil</a>
+                <a href="#">Lecture</a>
+                <a href="#">En écoute</a>
+                <a href="#">Les Journaux</a>
+                <a href="#">Connexion</a>
+            </div>
+        </div>
+    </nav>
+    <div class="recherche">
+        <form>
+            <select id="choix" name="choix">
+                <option value="recherche"> Recherche par...</option>
+                <option value="titre"> Par titre</option>
+                <option value="auteur"> Par Auteur</option>
+                <option value="genre"> Par Genre</option>
+            </select>
+            <input type="text" name="recherche" placeholder="Vous recherchez...">
+        </form>
+    </div>
+    <section>
+        <div class="header">
+            <h1>Bienvenue à la Médiathèque</h1>
+            <p>Venez lire, écouter, découvrir tout un univers</p>
+        </div>
+    </section>
+    <div class="newsletter">
+        <form>
+            <fieldset>
+                <legend>Abonnez-vous à notre newletter</legend>
+                <label></label>
+                <input type="text" name="nom" placeholder="entrez votre nom">
+                <input type="text" name="prenom" placeholder="entrez votre prénom">
+                <input type="mail" name="email" placeholder="entrez votre mail">
+                <input type="number" name="number" placeholder="entrez votre mot de passe">
+            </fieldset>
+        </form>
+    </div>
+    <footer>
+        <div class="footer">
+            <p>Copyright | 2020 |</p>
+            <p id="auteur">Enrick FICADIERE</p>
+        </div>
+    </footer>
+</body>
+</html>

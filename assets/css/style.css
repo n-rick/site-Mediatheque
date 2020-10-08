@@ -1,0 +1,80 @@
+.menu {
+    height: 60px;
+    background-color: lightblue;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+}
+.menu a {
+    padding: 20px;
+    text-decoration: none;
+    color: tomato;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.menu a:last-child {
+    color: crimson;
+}
+
+.menu a:hover {
+    background-color: tomato;
+    color: lightblue;
+}
+
+.menu a:last-child:hover {
+    color: lightblue;
+    background-color: darkolivegreen;
+}
+
+#choix {
+    width: 200px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    padding: 11px 20px 12px 15px;
+    transition: width 0.4s ease-in-out;
+}
+
+.recherche input[type=text] {
+  width: 200px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('../images/searchicon.png');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  transition: width 0.4s ease-in-out;
+}
+
+.recherche input[type=text]:focus {
+  width: 70%;
+  background-color: lightblue;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+    text-align: center;
+    background: url(../images/bg-mediatheque.jpg) no-repeat center;
+    height: 450px;
+}
+.newsletter input:focus {
+    background-color: lightblue; 
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
