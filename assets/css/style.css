@@ -30,7 +30,7 @@
     background-color: darkolivegreen;
 }
 
-#choix {
+#choix, .newsletter {
     width: 200px;
     box-sizing: border-box;
     border: 2px solid #ccc;
@@ -70,6 +70,7 @@
     background: url(../images/bg-mediatheque.jpg) no-repeat center;
     height: 450px;
 }
+
 .newsletter input:focus {
     background-color: lightblue; 
 }
@@ -77,4 +78,7 @@
 .footer {
     display: flex;
     justify-content: space-between;
+    padding: 0 20px;
+    background-color: lightblue;
+    text-transform: uppercase;
 }
