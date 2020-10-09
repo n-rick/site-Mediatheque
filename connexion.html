@@ -1,36 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>test FlexBox Mediathèque</title>
 </head>
+
 <body>
     <div class="page">
         <nav>
             <div class="menu">
                 <div class="menu-debut">
-                    <a href="#">Accueil</a>
+                    <a href="index.html">Accueil</a>
                     <a href="#">Lecture</a>
                     <a href="#">En écoute</a>
                     <a href="#">Les Journaux</a>
                 </div>
                 <div class="menu-connexion">
-                    <a href="connexion.html">Connexion</a>
+                    <a href="#">Connexion</a>
+                </div>
             </div>
-                </div>
-                <div class="recherche">
-                    <form>
-                        <select id="choix" name="choix">
-                            <option value="recherche"> Recherche par...</option>
-                            <option value="titre"> Par titre</option>
-                            <option value="auteur"> Par Auteur</option>
-                            <option value="genre"> Par Genre</option>
-                        </select>
-                        <input type="text" name="recherche" placeholder="Vous recherchez...">
-                    </form>
-                </div>
+            <div class="recherche">
+                <form>
+                    <select id="choix" name="choix">
+                        <option value="recherche"> Recherche par...</option>
+                        <option value="titre"> Par titre</option>
+                        <option value="auteur"> Par Auteur</option>
+                        <option value="genre"> Par Genre</option>
+                    </select>
+                    <input type="text" name="recherche" placeholder="Vous recherchez...">
+                </form>
+            </div>
         </nav>
         <header>
             <div class="header-base">
@@ -45,9 +47,12 @@
                 <form>
                     <fieldset>
                         <legend>Abonnez-vous à notre newletter</legend>
+                        <label></label>
                         <input type="text" name="nom" placeholder="entrez votre nom..." required>
                         <input type="text" name="prenom" placeholder="entrez votre prénom..." required>
-                        <input type="mail" name="email" placeholder="entrez votre mail..." required>
+                        <input type="mail" name="email" placeholder="entrez votre mail..." required>ou
+                        <input type="number" name="number" placeholder="entrez votre mot de passe..." required>ou
+                        <input type="number" name="number" placeholder="votre identifiant..." required>
                         <button type="submit" value="submit">Envoyer !</button>
                         <button type="reset" value="reset" id="erease">Effacer</button>
                     </fieldset>
